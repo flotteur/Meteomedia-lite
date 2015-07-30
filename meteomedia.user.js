@@ -7,10 +7,11 @@
 // @grant       none
 // @require     http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.4.min.js
 // ==/UserScript==
-function DestroyeEverything() {
+function DestroyEverything() {
   $('.headline-area').remove();
   $('.module.coffee-break').remove();
   $('.social-share').remove();
+  $('.moon_phases').remove();
   $('#leaderboard').remove();
   $('#sidebar').remove();
   $('#videos_brightcove-multiple-playlist-3-video-city-page').remove();
@@ -21,4 +22,4 @@ function DestroyeEverything() {
   $('#news').remove();
   $('#videos_brightcove-multiple-playlist-3-video-homepage').remove();
 }
-$(document).ready(DestroyeEverything());
+$(document).ready(DestroyEverything());
