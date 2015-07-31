@@ -23,6 +23,12 @@ function DestroyEverything() {
   $('.settings').remove();
   $('.signin:parent').remove();
   
+  $('a[title="Nouvelles"]:parent').remove();
+  $('a[title="Galeries"]:parent').remove();
+  $('a[title="Télé"]:parent').remove();
+  $('a[title="FAQ"]:parent').remove();
+  $('h3:contains("Style de vie")').parent().remove();
+  
   $('#leaderboard').remove();
   $('#sidebar').remove();
   $('#videos_brightcove-multiple-playlist-3-video-city-page').remove();
