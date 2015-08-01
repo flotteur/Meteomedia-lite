@@ -1,2 +1,3 @@
-# destroyMeteomedia
-Make meteomedia.com right
+# Meteomedia-lite
+Make meteomedia.com right.
+Works with tampermonkey and Greasemonkey.
